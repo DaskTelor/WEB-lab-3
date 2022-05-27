@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="style.css">
+        <title>Task 3</title>
+    </head>
+    <body>
+        <select id="typeOfDeposit">
+            <option value="default">Вид вклада</option>
+        </select>
+
+        <select id="depositTerm">
+            <option value="default">Срок вклада</option>
+        </select>
+
+        <p>
+            <input id="buttonStart" type="button" value=" Рассчитать для суммы:">
+            <input id="textSum" maxlength="12" value="1000">
+        </p>
+        <br>
+        <textarea id="resultText" cols=40 rows=10 tex readonly>Пока никакаких расчетов не производилось.</textarea>
+        <br>
+        <script src="index.js"></script>
+    </body>
+</html>
