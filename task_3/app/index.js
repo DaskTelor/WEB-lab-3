@@ -47,7 +47,6 @@ document.getElementById("typeOfDeposit").onfocus = function ()
 		onChangedTypeOfDeposit(sender);
 	}
 }
-
 document.getElementById("buttonStart").onclick = function ()
 {
 	let sum = document.getElementById("textSum").value.trim();

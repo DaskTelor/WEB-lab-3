@@ -8,11 +8,7 @@
         <title>Task 3</title>
     <script defer src="index_bundle.js"></script></head>
     <body>
-        <script src="index.js"></script>
-        
-        <select id="typeOfDeposit" 
-        onchange="onChangedTypeOfDeposit (this)"
-        onfocus="onFocusSelect(this)">
+        <select id="typeOfDeposit">
             <option value="default">Вид вклада</option>
         </select>
 
@@ -21,11 +17,12 @@
         </select>
 
         <p>
-            <input type="button" value=" Рассчитать для суммы:" onclick="onClickStartButton()">
+            <input id="buttonStart" type="button" value=" Рассчитать для суммы:">
             <input id="textSum" maxlength="12" value="1000">
         </p>
         <br>
         <textarea id="resultText" cols=40 rows=10 tex readonly>Пока никакаких расчетов не производилось.</textarea>
         <br>
+        <script src="index.js"></script>
     </body>
 </html>
